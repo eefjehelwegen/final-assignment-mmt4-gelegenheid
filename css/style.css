@@ -1,0 +1,911 @@
+/*                          header*/
+ul {
+    list-style-type: none;
+    position: absolute;
+    margin-left: 60%;
+    z-index: 1;
+}
+
+li {
+    float: right; 
+}
+
+li a {
+    display: block;
+    padding: 25px;
+    font-family: 'Montserrat-bold';
+    font-size: 1.000em;
+    letter-spacing: 3px;
+    color: #FFAFE3;
+    text-decoration: none;
+    margin-right: 50px;
+    
+}
+
+#slideshow { 
+    position: relative; 
+    width: 100%; 
+    height: 700px; 
+    overflow: hidden;
+    
+}
+
+#slideshow > img { 
+    position: absolute; 
+}
+
+#tekstslideshow{
+    position: absolute;
+    background-color: greenyellow;
+    width: 800px;
+    height: 325px;
+    
+}
+
+/*                          slide show*/
+.headerimage {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gradient {
+    position: absolute;
+    background-image: linear-gradient(to right, #FFAFE3,#0076FF);
+    opacity: 0.8;
+    width: 100vw;
+    height: 600px;
+}
+
+#slideshow {
+    position: relative;
+    width: 100vw;
+    height: 600px;
+}
+
+#slideshow > div {
+    position: absolute;
+}
+
+.headerimage .pf img {
+    position: absolute;
+    height: 134px;
+    top: 20%;
+    left: 20vw;
+    border-radius: 50%;
+}
+
+.headerimage h1 {
+    color: white;
+    font-size: 3.0em;
+    float: left;
+    position: absolute;
+    top: 20%;
+    left: 30vw;
+    font-family: 'playfair Display Bold';
+}
+
+.headerimage h2 {
+    color: white;
+    font-size: 1.375em;
+    line-height: 30px;
+    float: left;
+    position: absolute;
+    top: 40%;
+    left: 30vw;
+    font-family: 'Montserrat Medium';
+}
+
+
+
+
+/*                          hier begint section 1*/
+
+#section1{
+    max-width: 1208px;
+    position: relative;
+    margin: 0 auto;
+    top: -50px;
+}
+
+.player{
+    width: 100%;
+}
+
+.player-btn{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    position: absolute;
+    
+    opacity: 0.15;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;   
+}
+
+.player-btn:hover {
+    opacity: 1;
+}
+
+
+#play{
+    background-image: url(../img/home/play-btn@2x.png);
+    background-size: 100px;
+    top: 280px;
+    left: 550px;
+}
+
+#rewind{
+    background-image: url(../img/home/rewind%20btn@2x.png);
+    background-size: 75px;
+    width: 75px;
+    height: 75px;
+    top: 290px;
+    left: 440px;
+}
+
+h2{
+    font-family: 'Montserrat-bold';
+    font-size:0.875em ;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+
+
+/*                          hier begint section2*/
+
+#portofolioblok{
+    width: 1088px;
+    height: 912px;
+    margin: 0 auto;
+}
+
+#portofolioblok h3{
+    font-family: 'Montserrat-bold';
+    font-size: 0.938em;
+    color: #FFAFE3;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.portofolio{
+    position: relative;
+    width: 352px;
+    height: 352px;
+    float: left;
+    left: 30px;
+}
+
+.imgoverlay{
+    position: absolute;
+    top:0px;
+    width: 325px;
+    height: 325px;
+    background: rgba(0, 118, 255, 0.72);
+    visibility: hidden;
+    opacity: 0;
+    
+    font-family: 'PlayfairDisplay-bold';
+    color: white;
+    font-size: 2.188em;
+    line-height: 53px;
+}
+
+.imgtekstoverlay{
+    font-family: 'PlayfairDisplay-bold';
+    color: white;
+    font-size: 1.063em;
+    margin-left: 20px;
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+.portofolio:hover .imgoverlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+.buttonpink{
+    width: 127px;
+    height: 41px;
+    background-color:#FFAFE3;
+    border-radius: 6px;
+    display: block;
+    
+    font-family: 'Montserrat';
+    font-size: 0.563em;
+    color: white;
+    margin-left: 20px;
+}
+
+#button2{
+    float: left;
+    width: 141px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#button3{
+    margin-top: 15px;
+}
+
+#buttonsblok1{
+    width: 325px;
+    height: 110px;
+    margin-top: 80px;
+}
+
+#buttonsblok2{
+    width: 325px;
+    height: 110px;
+    margin-top: 80px;  
+}
+
+#buttonsblok3{
+    width: 325px;
+    height: 110px;
+    margin-top: 132px;  
+}
+
+#buttonsblok4{
+    width: 325px;
+    height: 110px;
+    margin-top: 132px;
+}
+
+#buttonsblok5{
+    width: 325px;
+    height: 110px;
+    margin-top: 80px;
+}
+
+#buttonsblok6{
+    width: 325px;
+    height: 110px;
+    margin-top: 132px;
+}
+
+.portofoliobutton{
+    width: 325px;
+    height: 58px;
+    background-color:#0076FF;
+    display: block;
+    margin: 0 auto;
+    
+    
+    font-family: 'Montserrat-bold';
+    font-size: 1.000em;
+    color: #FFAFE3;
+    border: none;
+}
+
+/*                          hier begint section3*/
+
+#section3{
+    background-color: #0076FF;
+    width: 100%;
+    height: 415px;
+    margin-top: 30px;
+}
+
+#blauwbloktekst{
+    position:relative;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    top: 100px;
+}
+
+ #contactForm {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#contactForm input, textarea {
+      letter-spacing: 2px;
+      font-size: 0.900em; 
+      
+      font-family: 'Montserrat';
+      
+      color: #000;
+      background-color: RGBA(204, 204, 204, .1);
+    
+      outline: none; border: none;
+   
+      display:block;
+      margin: 0 auto;
+      padding: 1em;
+      width: 90%;
+      max-width: 400px;
+ }
+
+#contactForm textarea {
+  height: 150px;
+}
+
+#contactForm *:focus {
+   background-color: RGBA(255, 175, 227, 1);
+}
+
+#contactForm *:hover {
+   background-color: RGBA(255, 175, 227, 1);
+}
+
+h1{
+    color: white;
+    font-size: 3.0em;
+    font-family: 'playfair Display Bold';
+}
+
+#panel {
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: solid 1px #c3c3c3;
+    margin-top: 75px;
+}
+
+#panel {
+    
+  padding: 50px;
+  display: none;
+}
+
+#flip{
+    margin-top: 130px;
+}
+
+
+
+
+
+/*                          hier begint singlepage*/
+
+
+#header{
+    height: 600px;
+    background-image: linear-gradient(to right, #FFAFE3,#0076FF);
+}
+
+p{
+    font-family: 'Montserrat';
+    color: white;
+    line-height: 27px;
+    font-size: 1.375em;
+}
+
+#inleidendetekst{
+    width: 650px;
+    position: relative;
+    margin: 0 auto;
+    top: 250px;
+}
+
+
+.portofoliobutton{
+    width: 325px;
+    height: 58px;
+    background-color:#0076FF;
+    display: block;
+    margin: 0 auto;
+    
+    font-family: 'Montserrat-bold';
+    font-size: 1.000em;
+    color: #FFAFE3;
+    border: none;
+}
+
+
+
+#p5sketch{
+    width: 1000px;
+    height: 1000px;
+    background-color: yellow;
+}
+
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+canvas{
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+
+#tekstsketch{
+    display: none;
+}
+
+.sliderp5{
+    width: 800px;
+    margin: 0 auto;
+}
+
+canvas {
+  position: absolute;
+  left: 50%;
+  top: 1000px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h4{
+    font-size: 1.5em;
+    font-family: 'Montserrat';
+    width: 500px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+h5{
+    font-size: 1.3em;
+    font-family: 'Montserrat';
+    margin-top: 10px;
+}
+
+.clear {
+    float: both;
+}
+
+
+
+
+
+
+
+/*                          responsive design*/
+
+@media screen and (max-width: 1650px){
+    ul{
+        margin-left: 55%;
+    }
+    
+    .headerimage .pf img{
+        left: 18vw;
+    }
+    
+}
+
+@media screen and (max-width: 1465px){
+    ul{
+        margin-left: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 1316px){
+    ul{
+        margin-left: 45%;
+    }
+   
+    .headerimage .pf img{
+        left: 15vw;
+    }
+}
+
+@media screen and (max-width: 1197px){
+    ul{
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 1097px){
+    ul{
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1070px){
+    #portofolioblok{
+        width: 768px;
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 1013px){
+    
+    li a{
+        margin-right: 20px;
+    }
+    
+      .headerimage .pf img{
+        left: 12vw;
+        top: 17%;
+    }
+}
+
+@media screen and (max-width: 888px){
+    
+    ul{
+        margin-left: 10%;
+    }
+    
+    li a{
+        margin-right: 15px;
+    }
+    
+    .headerimage pf img{
+        left: 5vw;
+    }
+    
+    .headerimage h1{
+        font-size: 2.5em;
+    }
+    
+    .headerimage h2{
+        font-size: 1.313em;
+    }
+}
+
+@media screen and (max-width: 865px){
+    
+    ul{
+        margin-left: 1%;
+    }
+    
+    li a{
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 782px){
+    
+    ul{
+        margin-left: 1%;
+    }
+    
+    li a{
+        margin-right: -5px;
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    ul{
+        margin-left: 35%;
+    }
+    
+    .headerimage h2{
+        width: 550px;
+        left: 30vw;
+    }
+    
+    #play{
+        top: 225px;
+        left: 510px;
+    }
+    
+    #rewind{
+        top: 235px;
+        left: 410px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    
+    .sliderimg{
+        max-width: 768px;
+        height: 600px;
+    }
+
+    .sliderp5{
+        display: none;
+    }
+    
+    canvas{
+        display: none;
+    }
+    
+    #tekstsketch{
+        display:contents;
+    }
+    
+    ul{
+        margin-left: 15%;
+    }
+    
+    li a{
+        margin-right: 20px;
+    }
+    
+    .headerimage h1{
+        font-size: 2.5em;
+    }
+    
+    .headerimage h2{
+        top: 35%;
+        left: 25vw;
+        width: 500px;
+    }
+    
+    .headerimage .pf img{
+        left: 8vw;
+        top: 17%;
+    }
+    
+    #play{
+        top: 180px;
+        left: 330px;
+    }
+    
+    #rewind{
+        top: 190px;
+        left: 230px;
+    }
+    
+    #portofolioblok{
+        width: 768px;
+        height: 1200px;
+    }
+    
+    #inleidendetekst{
+        width: 500px;
+    }
+    
+    p{
+        font-size: 1.250em;
+    }
+}
+
+@media screen and (max-width: 767px){
+    
+    #portofolioblok{
+        width: 600px;
+        height: 2300px;
+    }
+    
+    .portofolio{
+        left: 22%;
+    }
+    
+}
+
+@media screen and (max-width: 668px){
+    
+    li a{
+        font-size:0.813em;
+        padding: 20px;
+    }
+    
+    .headerimage h1{
+        font-size:2.000em;
+         top: 30%;  
+        left: 20vw;
+    }
+    
+    .headerimage h2{
+        top: 45%;
+        left: 20vw;
+    }
+    
+    .headerimage .pf img{
+        left: 40vw;
+        top: 10%;
+    }
+    
+    .portofolio{
+        left: 20%;
+    }
+    
+    #play
+    {
+        top: 120px;
+        left: 280px;
+    }
+    
+    #rewind{
+        top: 140px;
+        left: 180px;
+    }
+    
+    #portofolioblok{
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 586px){
+  
+    .portofoliobutton{
+        left: 50px;
+    }
+    
+    .portofolio{
+        left: 18%;
+    }
+    
+    h1{
+        font-size: 2.500em;
+    }
+    
+    #blauwbloktekst{
+        width: 500px;
+    }
+    
+    h3{
+    left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 579px){
+    li a{
+        font-size:0.688em;
+    }
+    
+    .headerimage .pf img{
+        left: 35vw;  
+    }
+    
+    .headerimage h1{
+        font-size:1.800em; 
+    }
+    
+    .headerimage h2{
+       font-size: 1.200em;
+        width: 300px;
+    }
+    
+    #play{
+        left: 230px;
+    }
+    
+    #rewind{
+        left: 130px;
+    }
+}
+
+@media screen and (max-width: 529px){
+    
+    ul{
+        margin-left:60%;
+    }
+    
+    li a{
+        color: orangered;
+        padding: 15px;
+    }
+    
+    #blauwbloktekst{
+        width: 400px;
+    }
+    
+    .portofolio{
+        left: 15%;
+    }
+    
+    .portofoliobutton{
+        margin-left: 15%;
+    }
+    
+    #h3tekst{
+        left: 5%;
+    }
+    
+    #inleidendetekst{
+        width: 360px;
+    }
+    
+    p{
+        font-size: 1.063em;
+    }
+    
+    h4{
+        font-size:1.188em;
+        width: 360px;
+    }
+    
+}
+
+@media screen and (max-width: 460px){
+    
+    .headerimage h1{
+        left: 15vw;
+    }
+
+    .headerimage h2{
+        left: 15vw;
+    }
+    
+    #play{
+        left: 170px;
+       top: 80px;
+    }
+    
+    #rewind{
+        left: 70px;
+        top: 100px;
+    }
+    
+    .portofolio{
+        left: 10%;
+    }
+    
+    .portofoliobutton{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 375px){
+    
+    #blauwbloktekst{
+        width: 300px;
+    }
+    
+    #portofolioblok{
+        width: 365px;
+    }
+    
+    .portofolio{
+        left: 5%;
+    }
+    
+    .portofoliobutton{
+        margin-left: 5%;
+    }
+    
+    #play{
+        left: 130px;
+        top: 50px;
+    }
+    
+    #rewind{
+        left: 30px;
+        top: 60px;
+    }
+    
+    .headerimage .pf img{
+        left: 15vw;
+    }
+
+    #inleidendetekst{
+        width: 260px;
+    }
+    
+    p{
+        font-size: 0.875em;
+    }
+    
+    h4{
+        font-size:1.063em;
+        width: 260px;
+    }
+}
+
+
+
